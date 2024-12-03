@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Link } from 'react-scroll';
+import React, { useState } from "react";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -8,9 +8,7 @@ const Navbar = () => {
     <nav className="bg-black text-white fixed top-0 left-0 w-full z-50 shadow-lg">
       <div className="max-w-6xl mx-auto px-8 flex justify-between items-center h-16">
         {/* Logo/Brand Name */}
-        <div className="text-2xl font-bold text-highlight">
-          Vaishnavi Patil
-        </div>
+        <div className="text-2xl font-bold text-highlight">Vaishnavi Patil</div>
 
         {/* Desktop Links */}
         <div className="hidden md:flex space-x-6">
@@ -39,22 +37,22 @@ const Navbar = () => {
             Education
           </Link>
           <Link
-  to="projects"
-  smooth={true}
-  duration={500}
-  className="cursor-pointer hover:text-highlight transition"
->
-  Projects
-</Link>
+            to="projects"
+            smooth={true}
+            duration={500}
+            className="cursor-pointer hover:text-highlight transition"
+          >
+            Projects
+          </Link>
 
           <Link
-to="skills"
-  smooth={true}
-  duration={500}
-  className="cursor-pointer hover:text-highlight transition"
->
-  Skills
-</Link>
+            to="skills"
+            smooth={true}
+            duration={500}
+            className="cursor-pointer hover:text-highlight transition"
+          >
+            Skills
+          </Link>
 
           <Link
             to="contact"
@@ -95,6 +93,34 @@ to="skills"
             onClick={() => setIsOpen(false)}
           >
             About
+          </Link>
+          <Link
+            to="education"
+            smooth={true}
+            duration={500}
+            className="block cursor-pointer hover:text-highlight transition"
+            onClick={() => setIsOpen(false)}
+          >
+            Education
+          </Link>
+          <Link
+            to="projects"
+            smooth={true}
+            duration={500}
+            className="block cursor-pointer hover:text-highlight transition"
+            onClick={() => setIsOpen(false)}
+          >
+            Projects
+          </Link>
+
+          <Link
+            to="skills"
+            smooth={true}
+            duration={500}
+            className="block cursor-pointer hover:text-highlight transition"
+            onClick={() => setIsOpen(false)}
+          >
+            Skills
           </Link>
           <Link
             to="services"
