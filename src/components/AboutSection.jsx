@@ -8,7 +8,7 @@ const AboutSection = () => (
 
 I am a Web Developer and UX/UI Designer with a background in Computer Engineering (BE). I specialize in crafting seamless, user-centered digital experiences by combining technical expertise with creative design. Let’s create something amazing together! 🚀
       </p>
-      <div className="flex justify-center space-x-8">
+      <div className="flex flex-col md:flex-row md:justify-center md:space-x-8 space-y-4 md:space-y-0">
         <div>Name: Vaishnavi Patil</div>
         <div>Location: Badlapur, Thane</div>
         <div> Email: <a href="mailto:vaishnavipatil60111@gmail.com">vaishnavipatil60111@gmail.com</a> </div>
