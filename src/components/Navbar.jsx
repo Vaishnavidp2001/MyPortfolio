@@ -31,6 +31,23 @@ const Navbar = () => {
             About
           </Link>
           <Link
+            to="education"
+            smooth={true}
+            duration={500}
+            className="cursor-pointer hover:text-highlight transition"
+          >
+            Education
+          </Link>
+          <Link
+  to="projects"
+  smooth={true}
+  duration={500}
+  className="cursor-pointer hover:text-highlight transition"
+>
+  Projects
+</Link>
+
+          <Link
 to="skills"
   smooth={true}
   duration={500}
@@ -39,16 +56,6 @@ to="skills"
   Skills
 </Link>
 
-          <Link
-            to="services"
-            smooth={true}
-            duration={500}
-            className="cursor-pointer hover:text-highlight transition"
-          >
-
-            Services
-          </Link>
-          
           <Link
             to="contact"
             smooth={true}

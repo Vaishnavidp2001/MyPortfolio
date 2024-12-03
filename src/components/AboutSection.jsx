@@ -5,14 +5,13 @@ const AboutSection = () => (
     <div className="max-w-4xl mx-auto text-center space-y-6">
       <h2 className="text-4xl font-bold text-highlight">Who am I?</h2>
       <p>
-        I am a Web Developer and UX/UI Designer with a passion for creating engaging user experiences.
-        Skilled in modern technologies and committed to delivering exceptional results.
+
+I am a Web Developer and UX/UI Designer with a background in Computer Engineering (BE). I specialize in crafting seamless, user-centered digital experiences by combining technical expertise with creative design. Let’s create something amazing together! 🚀
       </p>
       <div className="flex justify-center space-x-8">
         <div>Name: Vaishnavi Patil</div>
-        <div>Age: 23</div>
         <div>Location: Badlapur, Thane</div>
-        <div>Email: vaishnavipatil60111</div>
+        <div> Email: <a href="mailto:vaishnavipatil60111@gmail.com">vaishnavipatil60111@gmail.com</a> </div>
       </div>
       <div className="text-center">
         <a

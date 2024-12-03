@@ -5,6 +5,10 @@ import ServicesSection from './components/ServicesSection';
 import ContactSection from './components/ContactSection';
 import Navbar from './components/Navbar';
 import SkillsSection from './components/SkillsSection';
+import EducationSection from './components/EducationSection';
+import ProjectsSection from './components/ProjectsSection';
+import Footer from './components/Footer';
+
 
 
 const App = () => (
@@ -12,9 +16,12 @@ const App = () => (
     <Navbar />
     <HeroSection />
     <AboutSection />
+    <EducationSection />
+    <ProjectsSection />
     <SkillsSection />
     <ServicesSection />
     <ContactSection />
+    <Footer />
   </div>
 );
 
